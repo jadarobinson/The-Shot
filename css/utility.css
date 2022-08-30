@@ -62,6 +62,6 @@
 .section-title h2{
     font-size: 3rem;
     font-weight: 800;
-    color: var(--white-color);
+    color: var(--black);
     margin-bottom: 4rem;
 }
