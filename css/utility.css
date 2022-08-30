@@ -32,7 +32,8 @@
     background-color: var(--white-color);
 }
 .bg-blue{
-    background-color: var(--blue-color);
+    background-color: var(--dodger-blue-color);
+    background: linear-gradient(#ff8001, #FFA221);
 }
 .bg-dodger-blue{
     background-color: var(--dodger-blue-color);
