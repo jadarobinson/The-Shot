@@ -111,7 +111,8 @@ h1, h2, h3, h4{
 
 /* header */
 .header{
-    background: url(../images/fruit-basket-agency-caH-ZLrisZA-unsplash.jpg) center/cover no-repeat;
+    background: url() center/cover no-repeat;
+    background: linear-gradient(#ff8001, #FFA221);
 }
 .header-content{
     min-height: 600px;
@@ -216,15 +217,19 @@ h1, h2, h3, h4{
 /* section two */
 .section-two{
     padding: 9rem 0;
+    background: linear-gradient(#233148, #000000);
 }
 .section-two-content{
     display: grid;
     row-gap: 9rem;
+
 }
 .section-two-content .info .text{
     max-width: 460px;
     margin-right: auto;
     margin-left: auto;
+    color: var(--white-color);
+}
     
 }
 .section-two-content .info .btn{
@@ -240,6 +245,7 @@ h1, h2, h3, h4{
     max-width: 600px;
     margin-right: auto;
     margin-left: auto;
+    
 }
 .accordion-item-content{
     transition: var(--transition);
@@ -260,6 +266,7 @@ h1, h2, h3, h4{
     margin-bottom: 1rem;
     cursor: pointer;
     transition: var(--transition);
+    color: var(--white-color);
 }
 .accordion-item-content span:hover{
     color: var(--white-color);
@@ -316,10 +323,12 @@ h1, h2, h3, h4{
 
 /* section four */
 .section-four{
-    background: url(../images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg) center/cover no-repeat;
+    background: url(../images/) center/cover no-repeat;
     min-height: 764px;
     padding: 11rem 0;
     position: relative;
+    background: linear-gradient(#ff8001, #FFA221);
+    
 }
 .section-four-content{
     display: grid;
